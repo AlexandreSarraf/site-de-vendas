@@ -7,17 +7,6 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    color: #333;
-}
-
 a {
     display: inline-block;
     padding: 10px 20px;
@@ -30,5 +19,70 @@ a {
 }
 
 a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden; /* Evita que o conteúdo vaze para fora do container */
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    float: left; /* Alinha o título à esquerda */
+}
+
+nav {
+    float: right; /* Alinha o menu à direita */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block; /* Alinha os itens do menu na mesma linha */
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove a margem à esquerda do primeiro item */
+}
+
+/* Estilos para o formulário de login */
+.login {
+    float: right; /* Alinha o formulário de login à direita */
+    margin-top: 10px;
+}
+
+.login form input[type="text"],
+.login form input[type="password"],
+.login form button {
+    margin-left: 5px;
+    height: 25px;
+}
+
+.login form button {
+    height: 31px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login form button:hover {
     background-color: #0056b3;
 }
