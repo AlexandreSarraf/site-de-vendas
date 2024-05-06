@@ -20,6 +20,7 @@ a {
 
 a:hover {
     background-color: #0056b3;
+    color: #d4b817;
 }
 
 /* Estilos para o cabeçalho */
@@ -70,12 +71,12 @@ nav ul li:first-child {
 .login form input[type="password"],
 .login form button {
     margin-left: 5px;
-    height: 25px;
+    height: 30px;
     
 }
 
 .login form button {
-    height: 31px;
+    height: 35px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -86,4 +87,5 @@ nav ul li:first-child {
 
 .login form button:hover {
     background-color: #0056b3;
+    color: #d4b817;
 }
