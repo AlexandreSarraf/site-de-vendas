@@ -38,8 +38,7 @@ header {
 
 h1 {
     margin: 0;
-    color: #333;
-    float: left; /* Alinha o título à esquerda */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 nav {
@@ -72,6 +71,7 @@ nav ul li:first-child {
 .login form button {
     margin-left: 5px;
     height: 25px;
+    
 }
 
 .login form button {
@@ -81,6 +81,7 @@ nav ul li:first-child {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    /*font-family: 'Times New Roman', sans-serif;*/
 }
 
 .login form button:hover {
