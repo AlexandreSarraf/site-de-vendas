@@ -89,3 +89,16 @@ nav ul li:first-child {
     background-color: #0056b3;
     color: #d4b817;
 }
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .gallery img {
+    width: auto;
+    max-width: 100%; /* Define a largura máxima como 100% da largura do contêiner */
+    height: auto;
+    margin-right: 10px;
+  }
