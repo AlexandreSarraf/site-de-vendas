@@ -100,5 +100,5 @@ nav ul li:first-child {
     width: auto;
     max-width: 100%; /* Define a largura máxima como 100% da largura do contêiner */
     height: auto;
-    margin-right: 10px;
+    margin-right: 5px;
   }
