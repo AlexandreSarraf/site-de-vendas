@@ -14,7 +14,7 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
 # Autor
 
-Nome: Alexandre Thiago de Paula Sarraf
-LinkedIn: https://www.linkedin.com/in/alexandresarraf/
-E-mail: thiago-sarraf@hotmail.com
+1. Nome: Alexandre Thiago de Paula Sarraf
+2. LinkedIn: https://www.linkedin.com/in/alexandresarraf/
+3. E-mail: thiago-sarraf@hotmail.com
 
